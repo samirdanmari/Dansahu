@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dansahu-89700": {
+      "hosting": {
+        "Dansahu": [
+          "dansahu-89700"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dansahu-89700"
+  }
+}

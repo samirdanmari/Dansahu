@@ -1,0 +1,32 @@
+mat-toolbar{
+  #header{
+    color: white;
+    text-decoration: none;
+}
+#headerlogo{
+  height: 120px;
+  width: 100px;
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  mat-drawer {
+    display: flex;
+    
+    height: 100%;
+    background-color:rgb(238, 196, 90);
+    margin-bottom: 0;
+  }    
+  #appNameLogo{
+    display: block;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+}  
+   
+}

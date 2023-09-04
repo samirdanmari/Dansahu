@@ -1,0 +1,36 @@
+
+<mat-drawer-container class="main-container" autosize>
+<mat-drawer #drawer class="sidenav" mode="over">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+        <a mat-list-item [routerLink]="['/Home']" routerLinkActive="active">Home</a>
+        <a mat-list-item [routerLink]="['/Profile']">Profile</a>
+        <a mat-list-item [routerLink]="['/Send']">Send</a>
+        <a mat-list-item [routerLink]="['/usage']">Usage</a> 
+        <a mat-list-item [routerLink]="['/Budget']">Budget</a>
+        <a mat-list-item [routerLink]="['/Login']">LogOut</a>
+    </mat-nav-list>
+</mat-drawer>
+    <mat-toolbar color="primary"> 
+      <button mat-button (click)="drawer.toggle()">Menu
+        <mat-icon aria-hidden="false" fontIcon="menu"></mat-icon>
+      </button>
+      <!--tricycle icon inside header of the app-->
+      <img alt="Trycycle image as logo" src="assets/images/dansahuHeader.png" id="headerlogo">
+        <a [routerLink]="['/Home']" id="header">Dansahu Pay</a>
+
+        <!--profile view icon-->
+
+            <button mat-icon-button  aria-label="profile viewICon" [routerLink]="['/Profile']">
+                <mat-icon >account_circle</mat-icon>
+              </button>
+    </mat-toolbar>
+        <router-outlet>
+          
+           </router-outlet>
+           
+
+      <div class="row">
+        <app-footer></app-footer>
+      </div>
+</mat-drawer-container>

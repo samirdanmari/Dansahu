@@ -1,0 +1,19 @@
+<h3>USER LOGIN</h3>
+<form>
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Placeholder">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
+  <div class="example-container">
+  <mat-form-field hintLabel="Max 10 characters">
+    <mat-label>Enter some input</mat-label>
+    <input matInput #input maxlength="10" placeholder="Ex. Nougat">
+    <mat-hint align="end">{{input.value.length}}/10</mat-hint>
+  </mat-form-field>
+</div>
+
+</form>

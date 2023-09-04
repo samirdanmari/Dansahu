@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@font-face{
+    font-family: LoginDansahuFont;
+    src: url('../src/assets/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: font20;
+    src: url('../src/assets/LuckiestGuy-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}

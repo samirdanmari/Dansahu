@@ -1,0 +1,57 @@
+<body>
+<div class="container">
+    <div class="" id="MyBalanceTab">
+    <h3>My Balance: {{balance}}</h3>
+        <button mat-icon-button color="accent" aria-label="">
+          <mat-icon>visibility_off</mat-icon>
+        </button>
+        <button mat-icon-button color="accent" aria-label="">
+            <mat-icon>visibility_on</mat-icon>
+          </button>
+          </div>
+
+<div class="row" id="actions-buttons">
+   
+            <button type="button" mat-raised-button color="primary" [routerLink]="['/Send']" id="button1"><mat-icon aria-hidden="false" fontIcon="send">
+            </mat-icon>send</button>
+            <button type="button" mat-raised-button color="primary" id="button2"><mat-icon fontIcon="receive" ></mat-icon>
+                Receive</button>
+</div>
+<div class="row" id="section2Buttons">
+    <mat-list>
+        <div class="col" id="section2Button1">
+        <mat-list-item>
+            <button type="button" mat-raised-button color="primary"><mat-icon fontIcon="wallet"></mat-icon>Fund</button>
+        </mat-list-item>
+        <mat-list-item>
+            <button type="button" mat-raised-button color="primary"><mat-icon fontIcon="add_card"></mat-icon>Cards</button>
+        </mat-list-item>
+        <mat-list-item>
+            <button type="button" mat-raised-button color="primary"><mat-icon fontIcon="receipt"></mat-icon>Receipts</button>
+        </mat-list-item>
+    </div>
+    <div class="col" id="section2Button2">
+        <mat-list-item>
+            <button type="button" mat-raised-button color="primary"><mat-icon fontIcon="message"></mat-icon>Messages</button>
+        </mat-list-item>
+        <mat-list-item>
+            <button type="button" mat-raised-button color="primary"><mat-icon fontIcon="pending"></mat-icon>Pendings</button>
+        </mat-list-item>
+            <mat-list-item>
+                <button type="button" mat-raised-button color="primary"><mat-icon fontIcon="drive"></mat-icon>Hire_Driver</button>
+            </mat-list-item>
+        </div>
+    </mat-list>
+</div>
+<div class="row">
+    <!--
+        THIS ROW WILL HAVE SLIDE OF 
+    1. USER PERSONAL QR CODE 
+    2. GOOGLE MAP FOR LOCATION TRACKING
+    3. WEEKLY SPENDING OR BUDGET REMINDER
+    -->
+        <app-map></app-map>
+
+</div>
+</div>
+</body>

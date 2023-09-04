@@ -1,0 +1,61 @@
+body{
+    background-image: url("/assets/images/dansahuImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100;
+}
+#loginTab{
+    display: contents;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+}
+h3{
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-weight: bolder;
+}  
+mat-card{
+    background-color: rgb(0, 0, 0,.05);
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    mat-card-header{
+        display: contents;
+        background-color: whitesmoke;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        mat-card-title{
+            background-color: rgb(255, 223, 81);
+            color: black;
+            font-family: font20;
+            border: 2px;
+            border-style: groove;
+            border-radius: 15px 20px;
+            padding: 15px 30px 0px 30px;
+        }
+        mat-card-subtitle{
+            background-color: rgba(255, 255, 132, 0.39);
+            border: 2px;
+            border-style: groove;
+            border-radius: 15px 20px;
+            padding: 5px 10px 0px 10px;
+            
+        }
+    }
+    mat-card-content{
+        padding: 10px;
+        margin: 10px;
+    }   
+
+}
+#loginButton{
+ display: flex;
+  float: right; 
+  #forgetPassword{
+    margin-right: 2em;
+  }
+}

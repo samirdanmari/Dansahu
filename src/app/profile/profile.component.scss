@@ -1,0 +1,36 @@
+#RegisterUserCard{
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+#profile-picture-container{
+    float: right;
+}
+.img-avatar{
+    display: block;
+    border: slategrey;
+    border-style: dotted;
+    width: 100px;
+    height: 150px;
+  
+}
+mat-card{
+    background-color: rgb(0, 0, 0, 0.15);
+}
+mat-card-tittle{
+    text-align: center;
+    color:rgb(79, 47, 109);
+}
+mat-form-field{
+    color: black;
+    padding: 5px;
+}
+mat-card-footer{
+    margin-bottom: 20px;
+}
+mat-card-action{
+   float: right;
+}

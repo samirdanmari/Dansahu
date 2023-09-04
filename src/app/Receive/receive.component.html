@@ -1,0 +1,15 @@
+<mat-toolbar>
+    <h4>qr or barcode Using camera to pay</h4></mat-toolbar> 
+<div class="row" id="qrcode">
+
+
+</div>
+<h3>{{Scanning}}<span ></span></h3>
+<!--Add progress bar to be runnibg while user is scaning-->
+<mat-spinner *ngIf="showSpinner"></mat-spinner>
+<button (click)="loadData()" mat-raised-button color="primary">Accept</button>
+
+<mat-card class="task" color="warn" *ngIf="Accountdetails" (dblclick) = "edit.emit(Accountdetails)">
+    <h3>{{Accountdetails.FirstName}}</h3>
+    <h4>{{Accountdetails.AccountNumber}}</h4>
+</mat-card>
