@@ -4,15 +4,15 @@
 
 export const environment = {
   firebase: {
-    projectId: 'dansahu-89700',
-    appId: '1:24760647247:web:f6df0c3a044b0f22dd343a',
-    databaseURL: 'https://dansahu-89700-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'dansahu-89700.appspot.com',
+    projectId: '',
+    appId: '',
+    databaseURL: '',
+    storageBucket: '',
     locationId: 'europe-west2',
-    apiKey: 'AIzaSyAG6cyyqTpsvdkeC4v8DOg9NUjNSDfcZvw',
-    authDomain: 'dansahu-89700.firebaseapp.com',
-    messagingSenderId: '24760647247',
-    measurementId: 'G-3ZLW990Z88',
+    apiKey: '',
+    authDomain: '',
+    messagingSenderId: '',
+    measurementId: '',
   },
   production: false,
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -20,14 +20,14 @@ export const environment = {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 firebaseConfig: {
-  apiKey: "AIzaSyAG6cyyqTpsvdkeC4v8DOg9NUjNSDfcZvw",
-  authDomain: "dansahu-89700.firebaseapp.com",
-  databaseURL: "https://dansahu-89700-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "dansahu-89700",
-  storageBucket: "dansahu-89700.appspot.com",
-  messagingSenderId: "24760647247",
-  appId: "1:24760647247:web:f6df0c3a044b0f22dd343a",
-  measurementId: "G-3ZLW990Z88"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 }
 
 
